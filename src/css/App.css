@@ -1,0 +1,48 @@
+body{
+  margin: 0px;
+}
+*{
+  box-sizing: border-box;
+}
+.nav{
+  font-family: sans-serif;
+  color: whitesmoke;
+  background-color: rgb(41, 0, 92);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.Home{
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.Home:hover{
+  text-decoration: none;
+  background-color: rgb(41, 0, 92);
+  text-decoration: none;
+}
+.nav ul{
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+}
+.nav li{
+  margin-top: 10px;
+  text-align: right;
+  text-decoration: none;
+  margin:8px;
+}
+.list a{
+  font-size: 22px;
+  padding: 27px;
+  color:whitesmoke;
+  text-decoration: none;
+}
+.list a:hover{
+  background-color: rgb(49, 0, 109);
+  text-decoration: none;
+  border-radius: 7px;
+}
