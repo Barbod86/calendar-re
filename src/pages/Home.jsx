@@ -1,26 +1,25 @@
 import { useState, useEffect } from "react";
+import './pageCss/home.css'
 
 export default function Home() {
     let today = new Date();
-    let date = today.getHours() + 'hours' + (today.getMinutes() + 1) + 'minutes' + today.getSeconds() + 'seconds';
+    let date = today.getHours() + 'h:' + today.getMinutes() + 'm:' + today.getSeconds() + 's';
     let day = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDay();
 
-  const [count, setCount] = useState(date);
+  const [time, setCount] = useState(date);
 
   useEffect(() => {
     setTimeout(() => {
-      setCount((count) => date);
+      setCount((time) => date);
     }, 1000);
   });
-
-    
-      
+          
     return(
         <div>
             <h1>welcome</h1>
             <br />
-            <h1>{count}</h1>
-            <h2>{day}</h2>
+            <h1 className="time">{time}</h1>
+            <h2 className="day">{day}</h2>
             
         </div>
     );

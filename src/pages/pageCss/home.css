@@ -1,0 +1,26 @@
+.time{
+    background-color: rgb(246, 246, 246);
+    border-width: 10px;
+    border-radius: 8px;
+    border-color: black;
+    width: fit-content;
+    padding: 15px;
+    font-size: 85px;
+    text-align: center;
+    margin-left: 360px;
+}
+.day{
+    background-color: rgb(246, 246, 246);
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+    width: max-content;
+    padding: 10px;
+    font-size: 65px;
+    text-align: center;
+    margin-left: 490px;
+}
+.call{
+    text-align: center;
+    margin-right: 50px;
+}

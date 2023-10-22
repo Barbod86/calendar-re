@@ -6,10 +6,10 @@ export default function Navbar() {
               <a href="/Age">Age calculator</a>
           </li>
           <li>
-              <a href="/Year-difference">Year difference</a>
+              <a href="/Year-difference">Date difference</a>
           </li>
           <li>
-              <a href="/Calendar-difference">Calendar difference</a>
+              <a href="/Calendar-difference">Calender conversion</a>
           </li>
           <li>
               <a href="/About">About</a>

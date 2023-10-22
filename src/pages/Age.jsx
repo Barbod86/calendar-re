@@ -1,5 +1,4 @@
-// import  { useState } from "react";
-
+import './pageCss/Age.css'
 export default function Age() {
 
     function date_diff_indays(date1, date2) {
@@ -26,12 +25,13 @@ export default function Age() {
             
     return (
     <div>
-        <input id="y" type="number" />
-        <input id="m" type="number" />
-        <input id="d" type="number" />
-
-        <button onClick={Calculator}>submit</button>
-        <h1 id="Age">found out?</h1>
+    <h1 id="Age">Age Calculator</h1>
+     <div className='main'>
+      year:<input id="y" type="number" />
+      month:<input id="m" type="number" />
+      day:<input id="d" type="number" />
+     </div>  
+    <button className='button' onClick={Calculator}>submit</button>
     </div>
     )
 }

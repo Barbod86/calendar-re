@@ -1,3 +1,4 @@
+import './pageCss/Year.css';
 export default function Year() {
 
   function date_diff_indays(date1, date2) {
@@ -27,14 +28,22 @@ export default function Year() {
 
   return (
     <div>
-      <h1 id="p">Year</h1>
-      <input id="y" type="number" />
-      <input id="m" type="number" />
-      <input id="d" type="number" />
-      <input id="ye" type="number" />
-      <input id="mo" type="number" />
-      <input id="da" type="number" />
-      <button onClick={Calt}>submit</button>      
+    <h1 id="title">Date difference</h1>
+      <div className='main'>
+       <div className='first'>
+        year:<input id="y" type="number" />
+        month:<input className='md' id="m" type="number" />
+        day:<input className='md' id="d" type="number" />
+       </div>
+      <br />
+       <div className='last'>
+        year:<input id="ye" type="number" />
+        month:<input className='md' id="mo" type="number" />
+        day:<input className='md' id="da" type="number" />
+       </div>
+      </div>
+    <br />
+    <button className='button' onClick={Calt}>submit</button>      
     </div>
   );
 }

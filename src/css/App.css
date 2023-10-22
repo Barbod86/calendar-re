@@ -41,6 +41,11 @@ body{
   color:whitesmoke;
   text-decoration: none;
 }
+.list a:active{
+  background-color: rgb(49, 0, 109);
+  text-decoration: none;
+  border-radius: 7px;
+}
 .list a:hover{
   background-color: rgb(49, 0, 109);
   text-decoration: none;

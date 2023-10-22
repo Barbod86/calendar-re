@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    font-family: sans-serif,arial;
+    font-size: 30px;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.button{
+    width: 95px;
+    height: 60px;
+    border-radius: 4px;
+    border-width: 3px;
+    border-color: rgb(41, 0, 92);
+    background-color: rgb(41, 0, 92);
+    margin: 5px; 
+    text-align: center;
+    font-family: sans-serif,arial;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+input{
+    width: 60px;
+    border-radius: 4px;
+    border-width: 3px;
+    border-color: rgb(41, 0, 92);
+    margin: 5px;
+}
+.md{
+    width: 40px;
+    border-radius: 4px;
+    border-width: 3px;
+    border-color: rgb(41, 0, 92);
+    margin: 5px;
+}
+.first{
+    text-align: center;
+}
+.last{
+    text-align: center;
+}
+  
